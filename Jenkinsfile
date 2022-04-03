@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-              echo "Cloning the source code........" 
+              echo "Cloning the source code from git........" 
             }
         }
         stage('compile') {
